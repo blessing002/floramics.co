@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.separador2 p {
+    width: 100%;
+    margin-top: 230px;
+}
+
+.separador3 p {
+    width: 100%;
+    margin-top: 265px;
+}
+
+.tta {
+    text-align: center;
+}
+
+hr {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.title-content {
+    padding-top: 10px;
+    font-family: "Bright Violet";
+    font-size: 50px;
+    text-align: center;
+    margin-left: 11%;
+}
+
+.div-content {
+    width: 80%;
+    height: 80%;
+}
+
+@font-face {
+    font-family: "Bright Violet";
+    src: url("../fuentes/Bright Violet.ttf")
+}
+
+.aling-content {
+    width: 60%;
+    font-family: Times;
+    font-size: 25px;
+    float: right;
+    text-align: center;
+}
+
+.content {
+    float: right;
+    padding-bottom: 5px;
+}
+
+.form-div {
+    width: 80%;
+    font-family: Times;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gallery {
+    font-family: "Bright Violet";
+    font-size: 80px;
+    text-align: center;
+}
+
+.aria {
+    border: 1px solid #999;
+    box-sizing: border-box;
+    color: #444;
+    margin: 0.5%;
+    padding: 16px;
+    width: 47.5%;
+}
+
+.form-item {
+    display: block;
+    margin-left: 32%;
+}
+
+.contedor-flores {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 33%;
+    height: 40px;
+}
+
+.item {
+    border: 1px solid #999;
+    box-sizing: border-box;
+    margin: 0.5%;
+    padding: 12px;
+    width: 100%;
+}
+
+img {
+    transition: all 0.5s ease;
+    height: 170px;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+@media screen and (max-width:858px) {
+    .content img {
+        width: 100%;
+    }
+    .content {
+        border: 1px solid #000;
+        display: block;
+        width: 60%;
+        margin-left: 53px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .gallery {
+        font-size: 55px;
+    }
+    .form-item {
+        display: block;
+        margin-left: 67px;
+    }
+    .aria {
+        width: 81%;
+    }
+    .main {
+        display: inline-block;
+        width: 98%;
+        height: 40px;
+    }
+    .form-div {
+        font-size: 17px;
+    }
+}

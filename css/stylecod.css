@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.feet {
+    max-width: 100%;
+    background-color: #000000;
+    color: #fff;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.separador1 p {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.parrafo1 {
+    border: 3px solid #000000;
+    margin: 0.5%;
+    padding: 16px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@media screen and (max-width:858px) {
+    .parrafo1 {
+        margin-top: 80px;
+        font-size: 20px;
+        text-align: center;
+        border: none;
+    }
+    .parrafo1 img {
+        width: 100%;
+    }
+}
