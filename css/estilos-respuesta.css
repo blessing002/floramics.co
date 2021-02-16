@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    padding-top: 70px;
+}
+
+@font-face {
+    font-family: "texto";
+    src: url(../fuentes/Birthday.ttf);
+}
+
+.container {
+    padding: 60px;
+    width: 60%;
+    margin: auto;
+}
+
+.container h1 {
+    font-family: "texto";
+    font-size: 75px;
+    text-align: center;
+    color: #fff;
+}
+
+.container a {
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 7px;
+    border: 3px solid #fff;
+}
+
+.container a:hover {
+    background: linear-gradient(to right, #40d1fd, #eaff2b);
+}
+
+@media screen and (max-width:858px) {
+    body {
+        padding-top: 50px;
+    }
+    .container {
+        width: 60%;
+        margin: auto;
+        border: none;
+    }
+    .container h1 {
+        font-size: 45px;
+    }
+    .container a {
+        margin: auto;
+        width: 90%;
+        font-size: 17px;
+    }
+    .left {
+        margin-top: 10px;
+    }
+}

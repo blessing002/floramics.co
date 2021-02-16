@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FLORAMICS</title>
+    <link rel="icon" href="../img/logo.png">
+
+    <link rel="stylesheet" href="../css/fontello.css">
+    <link rel="stylesheet" href="../css/search.css">
+    <link rel="stylesheet" href="../css/stylecod.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/error.css">
+
+    <script src="https://kit.fontawesome.com/7a8027a684.js" crossorigin="anonymous"></script>
+    <script src="../js/search.js" defer></script>
+    <script src="../js/script.js" defer></script>
+    <script src="../js/jquery-3.2.1.js"></script>
+
+</head>
+
+<body>
+    <nav class="menu">
+        <h1 class="logo icon-ico_flor">FLORAMICS</h1>
+        <ul class="menu-items">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="flores.html">Flores</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li class="active"><a href="contactos.html">Contactanos</a></li>
+        </ul>
+        <span class="btn_menu">
+            <i class="icon-menu"></i>
+        </span>
+    </nav>
+
+
+    <div class="pharagrape">
+        <p class="form-pi">Escribenos</p>
+    </div>
+    <div class="contenedor">
+        <form action="../php/envio.php" method="post" class="form">
+            <div class="form-header">
+                <h2 class="form-title">C<span class="form-span">ontacto</span></h2>
+            </div>
+            <label for="nombre" class="form-label">Nombres</label>
+            <input type="text" id="nombre" class="form-input" placeholder="Escriba Su Nombre:" required>
+
+            <label for="apellidos" class="form-label">Apellidos</label>
+            <input type="text" id="apellidos" class="form-input" placeholder="Escriba Sus Apellidos:" required>
+
+            <label for="correo" class="form-label">Correo Electronico</label>
+            <input type="e-mail" id="correo" class="form-input" placeholder="Escriba Su Correo:" required>
+
+            <label for="phone" class="form-label">Telefono / Celular</label>
+            <input type="text" id="phone" class="form-input" placeholder="Escriba Su N° celular">
+
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea id="mensaje" class="form-textarea" placeholder="Escriba Su Mensaje:" required></textarea>
+
+            <input type="submit" id="btnSend" class="btn-submit" value="enviar mensaje">
+        </form>
+    </div>
+
+
+
+    <div class="feet">
+        <footer>
+            Derechos redervados &copy; 2020
+        </footer>
+    </div>
+
+</html>
